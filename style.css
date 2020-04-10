@@ -1,0 +1,71 @@
+# BookMark
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#container{
+    width: 600px;
+    height: 350px;
+    border: 1px solid none;
+    background-color: #E6E6FA;
+    top: 30px;
+    position: absolute;
+}
+ .header{
+     text-align: center;
+ }
+ .container-form{
+     margin-left: 70px;
+     margin-top: 20px;
+ }
+
+ .container-form input[type="text"]{
+     width: 450px;
+     padding: 10px;
+ }
+
+ .container-form input[type="url"]{
+    width: 450px;
+    padding: 10px;
+}
+.container-form label{
+    margin-left: 35%;
+  
+}
+.container-form input[type="submit"]{
+    padding: 10px;
+    margin-left: 35%;
+    background-color: #0000FF;
+    color: white;
+    border: none;
+}
+
+/*Add bookmark*/
+
+ul{
+    background-color: #E6E6FA;
+    margin: auto;
+    width: 53%;
+}
+li{
+    width: 600px;
+    height: 120px;
+    border: 1px solid none;
+    position: absolute;
+    top: 370px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: block;
+}
+.list{
+    margin: 10px;
+    background-color: #E6E6FA;
+    padding: 10px;
+}
+
